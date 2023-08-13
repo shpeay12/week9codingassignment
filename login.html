@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Friend</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container bg-dark">
+    <div class="container">
+        <h1 class="text-center text-warning">Life Matters</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#">Welcome Home Friend</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+      </div>
+    </nav>
+
+    <div class="container text-center text-warning">
+      <h1>Login or Register Account</h1>
+    </div>
+
+    <div class="container bg-primary"><!--Colors background-->
+    <div class="container text-warning">
+      <h3>Login</h3>
+    </div>
+    <form> <!--Creates form to login-->
+      <div class="form-group bg-primary">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group bg-primary">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-check bg-primary">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+    <hr />
+
+  <div class="text-center text-warning">
+    <h2>OR</h2>
+    </div>
+    <hr />
+
+    <div class="container"> <!--Creates form for registration-->
+      <div class="text-warning">
+        <h3>Register Account</h3><br>
+      </div>
+      <div class="bg-secondary">
+      <form> 
+          <input type="text" name="userName" placeholder="Username">
+          <input type="text" name="password" placeholder="Password">
+          <input type="text" name="firstName" placeholder="First Name">
+          <input type="text" name="lastName" placeholder="Last Name">
+          <input type="text" name="phoneNumber" placeholder="Phone Number">
+          <input type="text" name="state" placeholder="State">
+          <input type="text" name="email" placeholder="Email">
+          <input type="submit" value="Register">
+      </form>
+      </div>
+  </div>
+
+    
+      
+</body>
+</html>
